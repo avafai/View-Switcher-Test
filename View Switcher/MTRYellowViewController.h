@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+CFAbsoluteTime startTime;
+
 @interface MTRYellowViewController : UIViewController
 - (IBAction)yellowButtonPressed;
 @end

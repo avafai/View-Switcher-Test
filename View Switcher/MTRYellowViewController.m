@@ -46,6 +46,11 @@
     
     @autoreleasepool {
         
+        float elapsed = CFAbsoluteTimeGetCurrent() - startTime;
+        
+        NSLog(@"Elapsed Time: %0.3f seconds", elapsed);
+
+        /*
         NSString *task_time;
         
         NSDateFormatter *DateFormatter=[[NSDateFormatter alloc] init] ;
@@ -55,8 +60,9 @@
         
         // insert code here...
         NSLog(@"\nThe time and date in yellow land is: %@",[DateFormatter stringFromDate:[NSDate date]]) ;
+         */
     }
-    
+
 }
 
 @end

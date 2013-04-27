@@ -46,18 +46,18 @@
 }
 
 - (IBAction)switchViews:(id)sender {
-    [UIView beginAnimations:@"View Flip" context:nil];      // bold
-    [UIView setAnimationDuration:10.25];                     // bold
-    [UIView setAnimationCurve:UIViewAnimationCurveEaseInOut];   // bold
+//    [UIView beginAnimations:@"View Flip" context:nil];
+//    [UIView setAnimationDuration:2];
+//    [UIView setAnimationCurve:UIViewAnimationCurveEaseIn];
     if (self.yellowViewController.view.superview == nil) {
         if (self.yellowViewController == nil) {
             self.yellowViewController =
             [[MTRYellowViewController alloc] initWithNibName:@"MTRYellowViewController"
                                                       bundle:nil];
         }
-        [UIView setAnimationTransition:                         // bold
-         UIViewAnimationTransitionFlipFromRight                 // bold
-                               forView:self.view cache:YES];    // bold
+//        [UIView setAnimationTransition:
+//         UIViewAnimationTransitionFlipFromRight
+//                               forView:self.view cache:YES];
         
         [self.blueViewController.view removeFromSuperview];
         [self.view insertSubview:self.yellowViewController.view atIndex:0];
@@ -67,13 +67,13 @@
             [[MTRBlueViewController alloc] initWithNibName:@"MTRBlueViewController"
                                                     bundle:nil];
         }
-        [UIView setAnimationTransition:                         // bold
-         UIViewAnimationTransitionFlipFromLeft                  // bold
-                               forView:self.view cache:YES];    // bold
+//        [UIView setAnimationTransition:
+//         UIViewAnimationTransitionFlipFromLeft
+//                               forView:self.view cache:YES];
         [self.yellowViewController.view removeFromSuperview];
         [self.view insertSubview:self.blueViewController.view atIndex:0];
     }
-    [UIView commitAnimations];                                   // bold
+//    [UIView commitAnimations];
 }
 
 @end

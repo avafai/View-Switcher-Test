@@ -7,11 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
-
 #import "MTRAppDelegate.h"
+
+CFAbsoluteTime startTime;
 
 int main(int argc, char *argv[])
 {
+    startTime = CFAbsoluteTimeGetCurrent();
+    
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([MTRAppDelegate class]));
     }

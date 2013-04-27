@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+CFAbsoluteTime startTime;
+
 @interface MTRTaskClass : NSObject
 {
     NSString *task_name;
