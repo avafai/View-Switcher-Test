@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class MTRSwitchViewController;
 @interface MTRAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic) MTRSwitchViewController *switchViewController;
 
 @end

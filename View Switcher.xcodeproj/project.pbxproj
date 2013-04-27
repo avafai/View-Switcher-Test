@@ -16,6 +16,13 @@
 		3407AB2C172B5C33007EB1CC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB2B172B5C33007EB1CC /* Default.png */; };
 		3407AB2E172B5C33007EB1CC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB2D172B5C33007EB1CC /* Default@2x.png */; };
 		3407AB30172B5C33007EB1CC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB2F172B5C33007EB1CC /* Default-568h@2x.png */; };
+		3407AB38172B5CB3007EB1CC /* MTRSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407AB37172B5CB3007EB1CC /* MTRSwitchViewController.m */; };
+		3407AB3C172B5D24007EB1CC /* MTRBlueViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407AB3A172B5D24007EB1CC /* MTRBlueViewController.m */; };
+		3407AB3D172B5D24007EB1CC /* MTRBlueViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB3B172B5D24007EB1CC /* MTRBlueViewController.xib */; };
+		3407AB41172B5D47007EB1CC /* MTRYellowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407AB3F172B5D47007EB1CC /* MTRYellowViewController.m */; };
+		3407AB42172B5D47007EB1CC /* MTRYellowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB40172B5D47007EB1CC /* MTRYellowViewController.xib */; };
+		3407AB44172B5D68007EB1CC /* SwitchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3407AB43172B5D68007EB1CC /* SwitchView.xib */; };
+		3407AB47172B6757007EB1CC /* MTRTaskClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 3407AB46172B6756007EB1CC /* MTRTaskClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,17 @@
 		3407AB2B172B5C33007EB1CC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		3407AB2D172B5C33007EB1CC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		3407AB2F172B5C33007EB1CC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3407AB36172B5CB3007EB1CC /* MTRSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRSwitchViewController.h; sourceTree = "<group>"; };
+		3407AB37172B5CB3007EB1CC /* MTRSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRSwitchViewController.m; sourceTree = "<group>"; };
+		3407AB39172B5D24007EB1CC /* MTRBlueViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRBlueViewController.h; sourceTree = "<group>"; };
+		3407AB3A172B5D24007EB1CC /* MTRBlueViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRBlueViewController.m; sourceTree = "<group>"; };
+		3407AB3B172B5D24007EB1CC /* MTRBlueViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTRBlueViewController.xib; sourceTree = "<group>"; };
+		3407AB3E172B5D47007EB1CC /* MTRYellowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRYellowViewController.h; sourceTree = "<group>"; };
+		3407AB3F172B5D47007EB1CC /* MTRYellowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRYellowViewController.m; sourceTree = "<group>"; };
+		3407AB40172B5D47007EB1CC /* MTRYellowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MTRYellowViewController.xib; sourceTree = "<group>"; };
+		3407AB43172B5D68007EB1CC /* SwitchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwitchView.xib; sourceTree = "<group>"; };
+		3407AB45172B6755007EB1CC /* MTRTaskClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRTaskClass.h; sourceTree = "<group>"; };
+		3407AB46172B6756007EB1CC /* MTRTaskClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTRTaskClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +98,17 @@
 			children = (
 				3407AB28172B5C33007EB1CC /* MTRAppDelegate.h */,
 				3407AB29172B5C33007EB1CC /* MTRAppDelegate.m */,
+				3407AB3E172B5D47007EB1CC /* MTRYellowViewController.h */,
+				3407AB3F172B5D47007EB1CC /* MTRYellowViewController.m */,
+				3407AB40172B5D47007EB1CC /* MTRYellowViewController.xib */,
+				3407AB39172B5D24007EB1CC /* MTRBlueViewController.h */,
+				3407AB3A172B5D24007EB1CC /* MTRBlueViewController.m */,
+				3407AB3B172B5D24007EB1CC /* MTRBlueViewController.xib */,
+				3407AB36172B5CB3007EB1CC /* MTRSwitchViewController.h */,
+				3407AB37172B5CB3007EB1CC /* MTRSwitchViewController.m */,
+				3407AB43172B5D68007EB1CC /* SwitchView.xib */,
+				3407AB45172B6755007EB1CC /* MTRTaskClass.h */,
+				3407AB46172B6756007EB1CC /* MTRTaskClass.m */,
 				3407AB20172B5C33007EB1CC /* Supporting Files */,
 			);
 			path = "View Switcher";
@@ -155,6 +184,9 @@
 				3407AB2C172B5C33007EB1CC /* Default.png in Resources */,
 				3407AB2E172B5C33007EB1CC /* Default@2x.png in Resources */,
 				3407AB30172B5C33007EB1CC /* Default-568h@2x.png in Resources */,
+				3407AB3D172B5D24007EB1CC /* MTRBlueViewController.xib in Resources */,
+				3407AB42172B5D47007EB1CC /* MTRYellowViewController.xib in Resources */,
+				3407AB44172B5D68007EB1CC /* SwitchView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +199,10 @@
 			files = (
 				3407AB26172B5C33007EB1CC /* main.m in Sources */,
 				3407AB2A172B5C33007EB1CC /* MTRAppDelegate.m in Sources */,
+				3407AB38172B5CB3007EB1CC /* MTRSwitchViewController.m in Sources */,
+				3407AB3C172B5D24007EB1CC /* MTRBlueViewController.m in Sources */,
+				3407AB41172B5D47007EB1CC /* MTRYellowViewController.m in Sources */,
+				3407AB47172B6757007EB1CC /* MTRTaskClass.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
