@@ -1,5 +1,5 @@
 //
-//  MTRTaskClass.h
+//  MTRTask.h
 //  View Switcher
 //
 //  Created by Ali Vafai on 4/26/13.
@@ -10,7 +10,7 @@
 
 CFAbsoluteTime startTime;
 
-@interface MTRTaskClass : NSObject
+@interface MTRTask : NSObject
 {
     NSString *task_name;
     int task_id;

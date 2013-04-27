@@ -32,6 +32,7 @@
     self.blueViewController = [[MTRBlueViewController alloc]
                                initWithNibName:@"MTRBlueViewController" bundle:nil];
     [self.view insertSubview:self.blueViewController.view atIndex:0];
+    
 }
 
 - (void)didReceiveMemoryWarning

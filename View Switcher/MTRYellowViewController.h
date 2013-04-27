@@ -11,5 +11,9 @@
 CFAbsoluteTime startTime;
 
 @interface MTRYellowViewController : UIViewController
+    <UITableViewDataSource, UITableViewDelegate>
+
+@property (copy, nonatomic)NSArray *tasks;
+
 - (IBAction)yellowButtonPressed;
 @end

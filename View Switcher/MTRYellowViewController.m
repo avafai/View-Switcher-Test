@@ -27,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view.
+    self.tasks = @[@"History taking", @"Professional Communication",
+                     @"Physical Examination", @"Result finding and interpretation", @"Imaging review",
+                     @"Chart review", @"Outside record review"];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -48,7 +52,7 @@
         
         float elapsed = CFAbsoluteTimeGetCurrent() - startTime;
         
-        NSLog(@"Elapsed Time: %0.3f seconds", elapsed);
+        NSLog(@"\nElapsed Time: %0.3f seconds", elapsed);
 
         /*
         NSString *task_time;
@@ -65,4 +69,23 @@
 
 }
 
+- (NSInteger)tableView:(UITableView *)tableView
+ numberOfRowsInSection:(NSInteger)section
+{
+    return [self.tasks count];
+}
+- (UITableViewCell *)tableView:(UITableView *)tableView
+         cellForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    static NSString *SimpleTableIdentifier = @"SimpleTableIdentifier";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:
+                             SimpleTableIdentifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]
+                initWithStyle:UITableViewCellStyleDefault
+                reuseIdentifier:SimpleTableIdentifier];
+    }
+    cell.textLabel.text = self.tasks[indexPath.row];
+    return cell;
+}
 @end

@@ -1,14 +1,14 @@
 //
-//  MTRTaskClass.m
+//  MTRTask.m
 //  View Switcher
 //
 //  Created by Ali Vafai on 4/26/13.
 //  Copyright (c) 2013 Ali Vafai. All rights reserved.
 //
 
-#import "MTRTaskClass.h"
+#import "MTRTask.h"
 
-@implementation MTRTaskClass
+@implementation MTRTask
 
 -(int)getTask_id
 {
